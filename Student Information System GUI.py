@@ -146,11 +146,11 @@ class AddStudentFrame:
                                   highlightbackground="#C0B9DB", font=("Tw Cen MT", 20))
         me.add_year_combo = ttk.Combobox(me.add_frame, textvariable=me.year, font=("Tw Cen MT", 20),
                                            values=[
-                                               "1st Year",
-                                               "2nd Year",
-                                               "3rd Year",
-                                               "4th Year",
-                                               "5th Year"])
+                                               "I",
+                                               "II",
+                                               "III",
+                                               "IV",
+                                               "V"])
         me.add_course_entry = Entry(me.add_frame, textvariable=me.course, highlightthickness=2,
                                       highlightbackground="#C0B9DB", font=("Tw Cen MT", 18))
         me.add_gender_combo = ttk.Combobox(me.add_frame, textvariable=me.gender, font=("Tw Cen MT", 20),
